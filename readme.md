@@ -8,22 +8,22 @@ Xslt Trasform
 
 ##Usage
 
-'''xslttransform.exe''
+```xslttransform.exe```
 +Xml:  scratch.xml
 +Xsl:  scratch.xsl
 +Html: scratch.html
 
-'''xslttransform.exe FILENAME''
+```xslttransform.exe FILENAME```
 +Xml:  FILENAME.xml
 +Xsl:  FILENAME.xsl
 +Html: FILENAME.html
 
-'''xslttransform.exe FILE1.XML FILE2.XSL ''
+```xslttransform.exe FILE1.XML FILE2.XSL```
 +Xml:  FILE1.XML
 +Xsl:  FILE2.XSL
 +Html: scratch.html
 
-'''xslttransform.exe FILE1.XML FILE2.XSL FILE3.HTML ''
+```xslttransform.exe FILE1.XML FILE2.XSL FILE3.HTML```
 +Xml:  FILE1.XML
 +Xsl:  FILE2.XSL
 +Html: FILE3.HTML
