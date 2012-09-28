@@ -53,7 +53,12 @@ Date: 28th Sept 2012
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.StackTrace);
+                var err = String.Format(@"ERROR:::
+{0}
+
+{1}
+", ex.Message, ex.StackTrace);
+                Console.WriteLine(err);
                 
             }
             Console.WriteLine(@"
